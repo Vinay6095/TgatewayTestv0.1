@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 14, Time elapsed: 11.578 s <<< FAILURE! - in TestSuite
+gateway.testcases.RevisedPoTest.SetUp  Time elapsed: 11.066 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "gateway.pages.HomePage.VerifyingOrderManagement()" because "this.Home" is null
+	at gateway.testcases.RevisedPoTest.SetUp(RevisedPoTest.java:39)
+

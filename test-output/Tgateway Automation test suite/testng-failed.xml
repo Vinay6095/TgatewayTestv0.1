@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tgateway Automation test suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="gateway.ExtentReportListener.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="Tgateway portal test(failed)">
+    <classes>
+      <class name="gateway.testcases.PurchaseOrderListTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="close"/>
+          <include name="TC5"/>
+          <include name="TC30"/>
+        </methods>
+      </class> <!-- gateway.testcases.PurchaseOrderListTest -->
+    </classes>
+  </test> <!-- Tgateway portal test(failed) -->
+</suite> <!-- Failed suite [Tgateway Automation test suite] -->

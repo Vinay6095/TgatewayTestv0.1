@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tgateway Automation test suite">
+
+    <listeners>
+		<listener class-name="gateway.ExtentReportListener.ExtentReporter" />
+	</listeners>
+
+	<test name="Tgateway portal test">
+		<classes>
+			<!--<class name="gateway.testcases.PurchaseOrderListTest"></class>-->
+			 <class name="gateway.testcases.RevisedPoTest"></class>
+			<!--<class name="gateway.testcases.InvoiceListTest"></class>-->
+
+		</classes>
+	</test>
+</suite>
